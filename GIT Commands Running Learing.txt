@@ -1,0 +1,150 @@
+
+GIT
+--- 
+
+Distributed repository which is much better Centralised repository	
+
+Config: 1 time -->name email
+init or clone <ur> -- 1 time
+
+Config
+-------
+
+git config --global user.name "raj hasti"
+git config --global user.EMAIL "rajasekhar_hasti@persistent.com"
+
+git config --list
+
+git config user.name
+git config user.email
+git config --global core.editor notepad++
+
+Initilize
+---------
+git init ( Initilize repository on local machine)
+
+Master - default branch
+Status - Information about current activity
+
+git add  File1.html
+
+git commit -m "ReqNumber 123 File1.html is created prints Welcome to GIT"
+
+TO check what is modified 
+
+git diff 
+
+Command for adding multiple files
+
+git add .
+
+Add and commit command in one statement
+
+git commit -am "sdfsd"
+
+to get the history of commits or what ever we have done
+git log 
+git log --oneline
+git log --oneline 2
+git log --oneline --author="raj"
+git log --oneline --since=""
+git log --oneline --until="11-11-2019"
+
+git log --grep="lcome"
+
+
+ git checkout commitID
+ git checkout master
+ 
+ Checkout --> Switch between versions/branches
+ 
+ Undo:3 ways of undoing and below are the commands
+ 1.Checkout - to discard changes in working directory
+ 
+ Undo on committed changes
+ 2.revert  -- safe undo;does not delete commited history it simply rever to what commit id is given
+ git revert -- File1.html
+ 
+ 3.resest  -- danger remove commit;never use reset on public branch(a branch that is shared with other developers)
+ -- use  resets on local commit
+ git reset --hard ba86393
+ 
+ Following 3 options can be used on reset command
+ 
+ --hard  - remove commits and undo
+ --soft  - remove only commits
+ --mixed  - remove commits 
+ 
+ 
+ 
+Branching
+---------
+
+ parallel workflow
+ no commit on Master branch
+ By default head points to tip of branch
+ 
+ git branch bug123
+ 
+ git checkout -b bug123
+ 
+ Always merge the branch after running the commands in Master only
+ 
+ git merge bug456
+ 
+ git branch -d bug123 - delete a branch
+ 
+ git checkout -b bug456 - create and checkout to branch
+ 
+ master|merging state is called inbetween
+ 
+ git log --oneline --graph --decorate 
+ 
+ 
+ How to create Remote repository for first or initial set up
+ -------------------------------
+ 
+github... 
+https://github.com/arjunhasti/MyBFSIProject111.git
+
+https://github.com/arjunhasti/MyBFSIProject111.git
+
+git remote add origin https://github.com/arjunhasti/MyBFSIProject111.git
+		
+git push -u origin master
+
+git remote -v
+
+git push -u origin master		- Push everything from local to remote server ;use U only for first time
+
+git push origin
+
+
+git clone https://github.com/arjunhasti/MyBFSIProject111.git
+
+remote commands
+
+Push
+pull
+clone
+fetch 
+pull and fetch are different - 
+Fetch -only provide information for how many branches you are behind
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+

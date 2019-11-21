@@ -1,0 +1,48 @@
+[33mcommit 83d1994c690ae237352ae950cf0ef2109509d459[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: aa074a4 568d8c4
+Author: raj hasti <rajasekhar_hasti@PERSISTENT.COM>
+Date:   Thu Nov 21 08:02:07 2019 -0700
+
+    resolved the  conflicts
+
+[33mcommit aa074a4e03eae1d9d5342b5c44f998e11b72acec[m
+Author: raj hasti <rajasekhar_hasti@PERSISTENT.COM>
+Date:   Thu Nov 21 07:55:18 2019 -0700
+
+    merging bug456 and resolve conflicts
+
+[33mcommit 568d8c46ac3ff97db6f9ecf68613791323eadc7c[m[33m ([m[1;32mbug456[m[33m)[m
+Author: raj hasti <rajasekhar_hasti@PERSISTENT.COM>
+Date:   Thu Nov 21 07:53:08 2019 -0700
+
+    bug 123 wanted to have conflict
+
+[33mcommit 3f376518e5ca7d201973c0491b5233d9e6d239b0[m
+Author: raj hasti <rajasekhar_hasti@PERSISTENT.COM>
+Date:   Wed Nov 20 21:11:32 2019 -0700
+
+    bug11111
+
+[33mcommit ba86393375739e156a15cd8f27661d07e830b97f[m
+Author: raj hasti <rajasekhar_hasti@PERSISTENT.COM>
+Date:   Tue Nov 19 09:38:05 2019 -0700
+
+    Req number 987 updated prints
+
+[33mcommit 7df0ede470a3ff64dd3320a2d0b0bc862eab4e89[m
+Author: raj hasti <rajasekhar_hasti@PERSISTENT.COM>
+Date:   Tue Nov 19 09:36:40 2019 -0700
+
+    req number 678 class to print hello git ...Updated File1.html
+
+[33mcommit 9e7c94b31744ff2eaef36d9d0ba60cc740ee3d0d[m
+Author: raj hasti <rajasekhar_hasti@PERSISTENT.COM>
+Date:   Tue Nov 19 09:35:02 2019 -0700
+
+    req number 345 class to print hello git ...Updated File1.html
+
+[33mcommit c25b74a9d8e2284a880c5db0deecf595f9b5f989[m
+Author: raj hasti <rajasekhar_hasti@PERSISTENT.COM>
+Date:   Tue Nov 19 09:27:48 2019 -0700
+
+    ReqNumber 123 File1.html is created prints Welcome to GIT^C
